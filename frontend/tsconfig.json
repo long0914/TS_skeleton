@@ -1,6 +1,5 @@
 {
-
-    "compilerOptions": {
+  "compilerOptions": {
     "target": "ESNext",
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
@@ -19,7 +18,7 @@
     "baseUrl": "src"
   },
   "include": ["src"],
-  "files": [],
+  "files": ["./src/main.tsx"],// entry point
   "references": [
     {
       "path": "./tsconfig.app.json"
